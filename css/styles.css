@@ -1111,6 +1111,12 @@ a p {
     display: flex;
     justify-content: center;
   }
+  .card__container .imagen__container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
 }
 
 /*titulo*/
