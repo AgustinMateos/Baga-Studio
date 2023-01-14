@@ -1960,6 +1960,12 @@ a p {
   }
 }
 
+@media (max-width: 802px) {
+  #aboutUs__texto__container {
+    margin-top: 80px;
+  }
+}
+
 @media (max-width: 800px) {
   #aboutUs__titulo__container {
     margin-left: -35rem;
@@ -2151,7 +2157,8 @@ a p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 180px;
+    margin-bottom: 40px;
   }
   .index__menu__hr {
     color: #850808;
