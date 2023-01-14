@@ -206,7 +206,7 @@
 
 .works__nombresDeArtistas__container div {
   width: 40%;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -242,7 +242,7 @@
 .card__info {
   position: absolute;
   top: 45%;
-  right: 40%;
+  right: 18%;
   cursor: pointer;
   text-align: center;
   width: 60%;
@@ -499,7 +499,7 @@
 
 .works__nombresDeArtistas__container div h2 {
   margin-top: -15px;
-  margin-left: -260px;
+  margin-left: -415px;
 }
 
 .works__footer {
@@ -592,6 +592,30 @@
   color: white;
   cursor: pointer;
   font-size: 2rem;
+}
+
+@media (max-width: 1401px) {
+  .card_info h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1301px) {
+  .card_info h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1201px) {
+  .card_info h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1101px) {
+  .card_info h3 {
+    font-size: 1.2rem;
+  }
 }
 
 /*
@@ -1053,7 +1077,7 @@ a p {
 
 @media (max-width: 769px) {
   .works__nombresDeArtistas__container div {
-    margin-top: 70px;
+    margin-top: 60px;
   }
 }
 
@@ -1133,6 +1157,7 @@ a p {
 @media (max-width: 1200px) {
   .works__nombresDeArtistas__container div h2 {
     margin-left: -285px;
+    margin-top: 60px;
   }
 }
 
@@ -1218,7 +1243,7 @@ a p {
 
 @media (max-width: 601px) {
   .works__nombresDeArtistas__container div h2 {
-    font-size: 35px;
+    font-size: 25px;
     margin-left: -105px;
   }
 }
@@ -1231,14 +1256,14 @@ a p {
 
 @media (max-width: 501px) {
   .works__nombresDeArtistas__container div h2 {
-    font-size: 30px;
+    font-size: 20px;
     margin-left: -70px;
   }
 }
 
 @media (max-width: 451px) {
   .works__nombresDeArtistas__container div h2 {
-    font-size: 30px;
+    font-size: 20px;
     margin-left: -60px;
   }
 }
@@ -1312,7 +1337,7 @@ a p {
 
 @media (max-width: 600px) {
   .shortfilms__titulo {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
@@ -1337,7 +1362,7 @@ a p {
 @media (max-width: 500px) {
   .shortfilms__titulo {
     margin-top: -35px;
-    font-size: 30px;
+    font-size: 20px;
   }
   .shortfilms__videos__container {
     margin-top: -13px;
@@ -1938,7 +1963,7 @@ a p {
 
 @media (max-width: 600px) {
   #aboutUs__titulo__container h2 {
-    font-size: 35px;
+    font-size: 25px;
     margin-left: -40px;
     margin-top: 15px;
   }
@@ -1946,7 +1971,7 @@ a p {
 
 @media (max-width: 500px) {
   #aboutUs__titulo__container h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -2047,13 +2072,13 @@ a p {
 
 @media (max-width: 600px) {
   .contacto__titulo {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
 @media (max-width: 500px) {
   .contacto__titulo {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -2121,6 +2146,10 @@ a p {
 }
 
 .IndexexistoSoloParaMobile {
+  display: none;
+}
+
+.works__redesMobile__container {
   display: none;
 }
 
@@ -2254,6 +2283,22 @@ hr {
   }
   #index__imagenCarrousel__container div {
     right: 29%;
+  }
+}
+
+@media (max-width: 401px) {
+  .works__redesMobile__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .works__redesMobile__container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 40px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -13,25 +13,28 @@
 
 //Para achicar ele spacio que ocupaba el grid ya desaparecido cuando se abre el video 100%
 .noMargin {
-    margin:0;
+    margin: 0;
 }
 
 
 
-.altura__imagenesCarrousel__shortfilms{
-    height:400px;
+.altura__imagenesCarrousel__shortfilms {
+    height: 400px;
     object-fit: cover;
 }
 
-.IndexexistoSoloParaMobile{
-    display:none;
+.IndexexistoSoloParaMobile {
+    display: none;
 }
 
 
-
+.works__redesMobile__container {
+    display: none;
+}
 
 @media (max-width:768px) {
-   /* .cuerpo{
+
+    /* .cuerpo{
         display: grid; 
         grid-auto-columns: 1fr; 
         grid-auto-rows: 0.5fr; 
@@ -41,41 +44,45 @@
         grid-template-areas: 
             "index__logoMobile__container"; 
     }*/
-.IndexexistoSoloParaMobile{
-    display: block;
-}
+    .IndexexistoSoloParaMobile {
+        display: block;
+    }
 
-    .index_mobileMain_container {  
+    .index_mobileMain_container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 2.1fr 0.4fr;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-          "index_logoMobile_container "
-          "index_mainMobile_container "
-          "index_redesMobile_container-derecha";
-      }
-      
-      .index_logoMobile_container { 
+            "index_logoMobile_container "
+            "index_mainMobile_container "
+            "index_redesMobile_container-derecha";
+    }
+
+    .index_logoMobile_container {
         grid-area: index_logoMobile_container;
-     }
-      
-      .index_mainMobilecontainer { grid-area: indexmainMobile_container; }
-      
-      .index_redesMobile_container-derecha{ 
+    }
+
+    .index_mainMobilecontainer {
+        grid-area: indexmainMobile_container;
+    }
+
+    .index_redesMobile_container-derecha {
         grid-area: index_redesMobile_container-derecha;
         display: flex;
         justify-content: center;
         align-items: center;
-}
-    #navBar__index{
-        display:none;
     }
 
-    .carrousel__index__desaparecerMobile{
-        display:none;
+    #navBar__index {
+        display: none;
     }
+
+    .carrousel__index__desaparecerMobile {
+        display: none;
+    }
+
     /*
     .IndexexistoSoloParaMobile{
         display:flex;
@@ -87,77 +94,86 @@
 }
     }*/
 
-    .index__logoMobile__container{
+    .index__logoMobile__container {
         width: 100%;
-        height:40px;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        margin-top: 70px;
-        margin-bottom: 40px;}
-
-
-    .index__menu__hr{
-        color:  #850808;
-        
-    }
-     
-    }
-    .index__logoMobile__container h1{
-        font-family: $tipografiaTitulosDeSeccion;
-        font-size: 27px;
-        color: white;
-    }
-    .index__mainMobile__container{
-        grid-area: index__mainMobile__container;
-        width:100%;
+        height: 40px;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 40px;
     }
-    .index__mainMobile__container div {
+
+
+    .index__menu__hr {
+        color: #850808;
+
+    }
+
+}
+
+.index__logoMobile__container h1 {
+    font-family: $tipografiaTitulosDeSeccion;
+    font-size: 27px;
+    color: white;
+}
+
+.index__mainMobile__container {
+    grid-area: index__mainMobile__container;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index__mainMobile__container div {
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    }
-    .index__mainMobile__container div a{
-        text-decoration: none;
-    }
-    hr{
-        width:100%;
-        color:white;
-    }
-    .index__mainMobile__container div a p{
-       font-family:$tipografiaInfoCards;
-       font-size: $tFuenteInfoCardsClipsTablet;
-    }
-    .index__btnMobile__container{
-        width: 100%;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        padding-top: 100px;
-        grid-area: index__btnMobile__container;
-    }
-    .logo__instagramIndex__mobile{
-        display:block;
-    }
+}
+
+.index__mainMobile__container div a {
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    color: white;
+}
+
+.index__mainMobile__container div a p {
+    font-family: $tipografiaInfoCards;
+    font-size: $tFuenteInfoCardsClipsTablet;
+}
+
+.index__btnMobile__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    grid-area: index__btnMobile__container;
+}
+
+.logo__instagramIndex__mobile {
+    display: block;
+}
 
 
 
 
 
-.fondoNegro__body{
+.fondoNegro__body {
     background-color: black;
 }
 
 
 @media (max-width:400px) {
-    .logo__insatagram__navbar{
-        display:none;
+    .logo__insatagram__navbar {
+        display: none;
     }
 }
 
@@ -169,4 +185,23 @@
     #index__imagenCarrousel__container div {
         right: 29%;
     }
+}
+
+@media (max-width:401px) {
+
+    .works__redesMobile__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .works__redesMobile__container div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin-top:40px;
+    }
+
+
 }

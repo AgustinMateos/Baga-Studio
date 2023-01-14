@@ -46,6 +46,37 @@
     cursor:pointer;
     font-size:$tFuenteInfoCardsClips ;
 }
+
+
+@media (max-width:1401px) {
+    .card_info h3{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:1301px) {
+    .card_info h3{
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width:1201px) {
+    .card_info h3{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:1101px) {
+    .card_info h3{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
 /*
 .card__info p{
     .card__info h3{
