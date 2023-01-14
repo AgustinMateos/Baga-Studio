@@ -1722,67 +1722,6 @@ a p {
   }
 }
 
-@media (max-width: 450px) {
-  .video1__titulo__container {
-    position: absolute;
-    top: 37%;
-    right: 64%;
-  }
-}
-
-@media (max-width: 400px) {
-  .video1__titulo__container {
-    position: absolute;
-    top: 35%;
-  }
-}
-
-@media (max-width: 375px) {
-  .video1__titulo__container {
-    position: absolute;
-    top: 34%;
-  }
-}
-
-@media (max-width: 360px) {
-  .video1__titulo__container {
-    right: 60%;
-  }
-}
-
-@media (max-width: 350px) {
-  .video1__titulo__container {
-    position: absolute;
-    top: 33%;
-  }
-}
-
-@media (max-width: 330px) {
-  .video1__titulo__container {
-    right: 55%;
-    top: 31%;
-  }
-}
-
-@media (max-width: 400px) {
-  .shortfilms__premios__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: absolute;
-    top: 8%;
-    left: 2%;
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 400px) {
-  .shortfilms__premios__container {
-    top: 10%;
-  }
-}
-
 @media (max-width: 750px) {
   .shortfilms__premios__container div img {
     width: 180px;
@@ -1842,12 +1781,6 @@ a p {
   }
 }
 
-@media (max-width: 400px) {
-  .shortfilms__premios__container div {
-    margin-bottom: -10px;
-  }
-}
-
 @media (max-width: 450px) {
   .video2__titulo__container {
     position: absolute;
@@ -1861,6 +1794,11 @@ a p {
     width: 150px;
     height: 140px;
   }
+  .video1__titulo__container {
+    position: absolute;
+    top: 37%;
+    right: 64%;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1870,35 +1808,24 @@ a p {
 }
 
 @media (max-width: 400px) {
-  .video2__titulo__container {
-    top: 36%;
+  .shortfilms__premios__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    width: 100%;
+    flex-direction: column;
   }
-}
-
-@media (max-width: 375px) {
-  .video2__titulo__container {
-    top: 34%;
-  }
-}
-
-@media (max-width: 350px) {
-  .video2__titulo__container {
-    top: 31%;
-    right: 78%;
-  }
-}
-
-@media (max-width: 400px) {
   .textoOficialSelection__shortfilms {
     font-size: 10px;
   }
   .shortfilms__premios__container div img {
-    width: 135px;
-    height: 135px;
+    width: 105px;
+    height: 105px;
+    object-fit: cover;
   }
-}
-
-@media (max-width: 400px) {
   .shortfilms__video1__container {
     display: flex;
     flex-direction: column;
@@ -1909,6 +1836,50 @@ a p {
     margin-bottom: 50px;
     align-items: center;
     justify-content: flex-start;
+  }
+  .video2__titulo__container {
+    top: 36%;
+  }
+  .shortfilms__premios__container div {
+    margin-bottom: -10px;
+  }
+  .video1__titulo__container {
+    position: absolute;
+    top: 35%;
+  }
+}
+
+@media (max-width: 375px) {
+  .video2__titulo__container {
+    top: 34%;
+  }
+  .video1__titulo__container {
+    position: absolute;
+    top: 34%;
+  }
+}
+
+@media (max-width: 360px) {
+  .video1__titulo__container {
+    right: 60%;
+  }
+}
+
+@media (max-width: 350px) {
+  .video2__titulo__container {
+    top: 31%;
+    right: 78%;
+  }
+  .video1__titulo__container {
+    position: absolute;
+    top: 33%;
+  }
+}
+
+@media (max-width: 330px) {
+  .video1__titulo__container {
+    right: 55%;
+    top: 31%;
   }
 }
 
@@ -2183,7 +2154,7 @@ a p {
     margin-top: 280px;
   }
   .index__menu__hr {
-    color: red;
+    color: #850808;
   }
   .index__logoMobile__container h1 {
     font-family: "Montserrat";
