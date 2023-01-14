@@ -462,6 +462,7 @@
     .shortfilms__titulo{
         margin-top: -30px;
         margin-left:16px;
+        
     }
 }
 
@@ -1040,7 +1041,7 @@
         border-radius: 10px;
         margin-bottom: 50px;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
@@ -1205,11 +1206,22 @@
 
 //CONTACT 
 
+
+
 .contacto__titulo{
     padding-top: 10px;
     margin-left: -260px;
 }
-
+@media (max-width:860px){
+    
+#contactUs__information__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+}
 @media (max-width:600px) {
     .contacto__titulo{
         font-size:$tFuenteTitulosDeSeccionTablet

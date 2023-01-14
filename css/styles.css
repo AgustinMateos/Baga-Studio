@@ -564,7 +564,7 @@
 }
 
 #index__imagenCarrousel__container div h5 {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   color: white;
   font-size: 3rem;
   text-align: center;
@@ -587,7 +587,7 @@
 }
 
 .card__info h3 {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   color: white;
   cursor: pointer;
   font-size: 2rem;
@@ -612,13 +612,13 @@
 }
 
 .video1__titulo__container h5 strong {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   color: #850808;
   font-size: 3rem;
 }
 
 .video2__titulo__container h5 strong {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   color: #850808;
   font-size: 3rem;
 }
@@ -695,7 +695,7 @@ a p {
 }
 
 #index__imagenCarrousel__container div p {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   color: white;
   font-size: 3rem;
 }
@@ -703,11 +703,11 @@ a p {
 .card__info {
   font-size: medium;
   color: white;
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
 }
 
 .card__info p {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   color: white;
   cursor: pointer;
   font-size: 2rem;
@@ -1908,7 +1908,7 @@ a p {
     border-radius: 10px;
     margin-bottom: 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
@@ -2061,6 +2061,16 @@ a p {
   margin-left: -260px;
 }
 
+@media (max-width: 860px) {
+  #contactUs__information__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+}
+
 @media (max-width: 600px) {
   .contacto__titulo {
     font-size: 35px;
@@ -2202,7 +2212,7 @@ a p {
     color: white;
   }
   .index__mainMobile__container div a p {
-    font-family: "Bebas Neue";
+    font-family: "Montserrat";
     font-size: 1.3rem;
   }
   .index__btnMobile__container {
