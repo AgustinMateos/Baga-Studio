@@ -57,7 +57,7 @@
 
     .index__logoMobile__container{
         width: 100%;
-        height:100px;
+        height:90px;
         display:flex;
         justify-content:center;
         align-items:center;
@@ -65,13 +65,7 @@
     .index__menu__hr{
         color: red;
     }
-    .index__logoMobile__container{
-        width: 100%;
-        height:100px;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
+   
     .index__logoMobile__container h1{
         font-family: $tipografiaTitulosDeSeccion;
         font-size: $tFuenteTitulosDeSeccionTablet;
