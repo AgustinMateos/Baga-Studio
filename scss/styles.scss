@@ -29,6 +29,7 @@
 
 
 
+
 @media (max-width:768px) {
    /* .cuerpo{
         display: grid; 
@@ -40,6 +41,10 @@
         grid-template-areas: 
             "index__logoMobile__container"; 
     }*/
+.IndexexistoSoloParaMobile{
+    display: block;
+}
+
     .index_mobileMain_container {  
         display: grid;
         grid-template-columns: 1fr;
@@ -54,9 +59,7 @@
       
       .index_logoMobile_container { 
         grid-area: index_logoMobile_container;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
+     }
       
       .index_mainMobilecontainer { grid-area: indexmainMobile_container; }
       
@@ -73,6 +76,7 @@
     .carrousel__index__desaparecerMobile{
         display:none;
     }
+    /*
     .IndexexistoSoloParaMobile{
         display:flex;
         flex-direction: column;
@@ -81,6 +85,7 @@
 #index__container__general img{
     display:none;
 }
+    }*/
 
     .index__logoMobile__container{
         width: 100%;
@@ -89,8 +94,9 @@
         justify-content:center;
         align-items:center;
         margin-top: 90px;
-        margin-bottom: 40px;
-    }
+        margin-bottom: 40px;}
+
+
     .index__menu__hr{
         color:  #850808;
         
