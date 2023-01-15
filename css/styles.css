@@ -1083,7 +1083,7 @@ a p {
 
 @media (max-width: 769px) {
   .works__nombresDeArtistas__container div {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 }
 
@@ -1385,12 +1385,6 @@ a p {
 @media (max-width: 400px) {
   .shortfilms__titulo {
     text-align: center;
-  }
-}
-
-@media (max-width: 390px) {
-  .shortfilms__titulo {
-    margin-left: 13px;
   }
 }
 
@@ -1731,7 +1725,7 @@ a p {
 @media (max-width: 453px) {
   .video1__titulo__container {
     right: 56%;
-    top: 40%;
+    top: 31%;
   }
   .video2__titulo__container {
     right: 74%;
@@ -1885,7 +1879,6 @@ a p {
   }
   .video1__titulo__container {
     position: absolute;
-    top: 35%;
     right: 44%;
   }
 }
@@ -2277,7 +2270,7 @@ hr {
   }
 }
 
-@media (max-width: 401px) {
+@media (max-width: 330px) {
   .works__redesMobile__container {
     display: flex;
     justify-content: center;
@@ -2290,6 +2283,20 @@ hr {
     align-items: center;
     width: 40%;
     margin-top: 40px;
+  }
+  .index__logoMobile__container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .index__logoMobile__container h1 {
+    font-family: "Montserrat";
+    font-size: 24px;
+    color: white;
   }
 }
 /*# sourceMappingURL=styles.css.map */

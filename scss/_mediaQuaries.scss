@@ -201,7 +201,7 @@
 
 @media (max-width: 769px) {
     .works__nombresDeArtistas__container div {
-        margin-top: 60px;
+        margin-top: 40px;
     }
 }
 
@@ -533,13 +533,11 @@
         text-align: center;
 
     }
+   
 }
 
-@media (max-width:390px) {
-    .shortfilms__titulo {
-        margin-left: 13px;
-    }
-}
+
+
 
 @media (max-width:380px) {
     .shortfilms__titulo {
@@ -916,7 +914,7 @@
 @media (max-width:453px) {
     .video1__titulo__container {
         right: 56%;
-        top: 40%;
+        top: 31%;
     }
 
     .video2__titulo__container {
@@ -1096,7 +1094,7 @@
 
     .video1__titulo__container {
         position: absolute;
-        top: 35%;
+       
         right: 44%;
     }
 }
