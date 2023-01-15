@@ -401,17 +401,7 @@
     }
 }
 
-@media (max-width:401px) {
-    .works__nombresDeArtistas__container div h2 {
-        margin-left: -15px;
-    }
-}
 
-@media (max-width:351px) {
-    .works__nombresDeArtistas__container div h2 {
-        margin-left: -23px;
-    }
-}
 
 
 /*posicion titulo de cards*/
@@ -531,7 +521,8 @@
     .shortfilms__titulo {
     
         text-align: center;
-
+       
+    margin-left: -39px
     }
    
 }
@@ -539,41 +530,21 @@
 
 
 
-@media (max-width:380px) {
-    .shortfilms__titulo {
-        margin-left: 4px;
-    }
-}
 
-@media (max-width:370px) {
-    .shortfilms__titulo {
-        margin-left: 0px;
-    }
-}
+
+
 
 @media (max-width:360px) {
     .shortfilms__titulo {
-        margin-left: -5px;
+        margin-left: -35px;
     }
 }
 
-@media (max-width:350px) {
-    .shortfilms__titulo {
-        margin-left: -10px;
-    }
-}
 
-@media (max-width:340px) {
-    .shortfilms__titulo {
-        margin-left: -15px;
-    }
-}
 
-@media (max-width:330px) {
-    .shortfilms__titulo {
-        margin-left: -20px;
-    }
-}
+
+
+
 
 @media (max-width:320px) {
     .shortfilms__titulo {
