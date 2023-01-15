@@ -928,7 +928,13 @@ a p {
 }
 
 @media (max-width: 400px) {
-  .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
     flex-direction: column;
   }
 }
@@ -1256,14 +1262,14 @@ a p {
 
 @media (max-width: 501px) {
   .works__nombresDeArtistas__container div h2 {
-    font-size: 20px;
+    font-size: 26px;
     margin-left: -70px;
   }
 }
 
 @media (max-width: 451px) {
   .works__nombresDeArtistas__container div h2 {
-    font-size: 20px;
+    font-size: 26px;
     margin-left: -60px;
   }
 }
@@ -1362,7 +1368,7 @@ a p {
 @media (max-width: 500px) {
   .shortfilms__titulo {
     margin-top: -35px;
-    font-size: 20px;
+    font-size: 26px;
   }
   .shortfilms__videos__container {
     margin-top: -13px;
@@ -1378,8 +1384,7 @@ a p {
 
 @media (max-width: 400px) {
   .shortfilms__titulo {
-    margin-top: -30px;
-    margin-left: 16px;
+    text-align: center;
   }
 }
 
@@ -1885,6 +1890,12 @@ a p {
   }
 }
 
+@media (max-width: 340px) {
+  .video2__titulo__container {
+    top: 31%;
+  }
+}
+
 #aboutUs__titulo__container {
   width: 30%;
   text-align: center;
@@ -1951,7 +1962,7 @@ a p {
 
 @media (max-width: 500px) {
   #aboutUs__titulo__container h2 {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
@@ -2058,7 +2069,7 @@ a p {
 
 @media (max-width: 500px) {
   .contacto__titulo {
-    font-size: 20px;
+    font-size: 26px;
   }
 }
 
