@@ -104,9 +104,21 @@
         margin-bottom: 40px;
     }
 
+    .index__menu__containerClips {
+        height: 100px;
+        width: 90px;
+        left: 0px;
+        top: 138px;
+        border-bottom: 5px solid #850808;
+        border-top: 5px solid #850808;
 
-    .index__menu__hr {
-        color: #850808;
+    }
+    .index__menu__container {
+        height: 100px;
+        width: 90px;
+        left: 0px;
+        top: 138px;
+        border-bottom: 5px solid #850808;
 
     }
 
@@ -114,8 +126,13 @@
 
 .index__logoMobile__container h1 {
     font-family: $tipografiaTitulosDeSeccion;
-    font-size: 27px;
     color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.245em;
+    text-align: center;
 }
 
 .index__mainMobile__container {
@@ -133,6 +150,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .index__mainMobile__container div a {
@@ -146,7 +164,13 @@ hr {
 
 .index__mainMobile__container div a p {
     font-family: $tipografiaInfoCards;
-    font-size: $tFuenteInfoCardsClipsTablet;
+   /* font-size: $tFuenteInfoCardsClipsTablet;*/
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0.245em;
+text-align: center;
 }
 
 .index__btnMobile__container {
@@ -186,6 +210,19 @@ hr {
         right: 29%;
     }
 }
+@media (max-width:1024px) {
+   .index__mainMobile__container div a p {
+    font-family: $tipografiaInfoCards;
+   /* font-size: $tFuenteInfoCardsClipsTablet;*/
+    font-family: Montserrat;
+font-size: 25px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0.245em;
+text-align: center;
+}
+}
+
 
 @media (max-width:330px) {
 
@@ -195,13 +232,15 @@ hr {
         align-items: center;
         width: 100%;
     }
-    .works__redesMobile__container div{
+
+    .works__redesMobile__container div {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 40%;
-        margin-top:40px;
+        margin-top: 40px;
     }
+
     .index__logoMobile__container {
         width: 100%;
         height: 40px;
@@ -211,6 +250,7 @@ hr {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .index__logoMobile__container h1 {
         font-family: "Montserrat";
         font-size: 24px;
@@ -218,5 +258,54 @@ hr {
     }
 
 
+.index__mainMobile__container div a p {
+    font-family: $tipografiaInfoCards;
+   /* font-size: $tFuenteInfoCardsClipsTablet;*/
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 37px;
+letter-spacing: 0.245em;
+text-align: center;
+}
+.index__menu__container {
+    height: 70px;
+    width: 90px;
+    left: 0px;
+    top: 138px;
+    border-bottom: 5px solid #850808;
 
+}
+.index__menu__containerClips {
+    height: 70px;
+    width: 90px;
+    left: 0px;
+    top: 138px;
+    border-bottom: 5px solid #850808;
+    border-top: 5px solid #850808;
+
+}
+}
+
+
+@media (max-width:300px) {
+
+.index__menu__container {
+    height: 50px;
+    width: 90px;
+    left: 0px;
+    top: 138px;
+    border-bottom: 5px solid #850808;
+    padding-top: 12px ;
+
+}
+.index__menu__containerClips {
+    height: 50px;
+    width: 90px;
+    left: 0px;
+    top: 138px;
+    border-bottom: 5px solid #850808;
+    border-top: 5px solid #850808;
+    padding-top: 12px ;
+}
 }
