@@ -205,6 +205,11 @@
     }
 }
 
+@media (max-width: 769px){
+.works__nombresDeArtistas__container div {
+    margin-top: 20px;
+}}
+
 /*tamaño cards*/
 
 @media (max-width:1200px) {
