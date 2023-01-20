@@ -1,19 +1,19 @@
 const carrouselOpenerBtn1 = document.querySelector(".shortfilms__video1__container"),
-carrouselOpenerBtn2 = document.querySelector(".shortfilms__video2__container"),
-imageView = document.querySelector(".image-view"),
-imageBox = document.querySelector(".image-box");
+    carrouselOpenerBtn2 = document.querySelector(".shortfilms__video2__container"),
+    imageView = document.querySelector(".image-view"),
+    imageBox = document.querySelector(".image-box");
 
-imageView.addEventListener("click", 
-function() {
-    this.style.display = "none";
-    imageBox.style.display = "none";
-} )
+imageView.addEventListener("click",
+    function () {
+        this.style.display = "none";
+        imageBox.style.display = "none";
+    })
 
-carrouselOpenerBtn1.addEventListener("click" ,
-function() {
-    imageView.style.display= " block ";
-    imageBox.style.display = " block ";
-    imageBox.innerHTML=`
+carrouselOpenerBtn1.addEventListener("click",
+    function () {
+        imageView.style.display = " block ";
+        imageBox.style.display = " block ";
+        imageBox.innerHTML = `
     <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -48,14 +48,14 @@ function() {
         </a>
     </div>`
 
-})
+    })
 
 
-carrouselOpenerBtn2.addEventListener("click" ,
-function() {
-    imageView.style.display= " block ";
-    imageBox.style.display = " block ";
-    imageBox.innerHTML=`
+carrouselOpenerBtn2.addEventListener("click",
+    function () {
+        imageView.style.display = " block ";
+        imageBox.style.display = " block ";
+        imageBox.innerHTML = `
     <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -103,4 +103,4 @@ function() {
         </a>
     </div>`
 
-})
+    })

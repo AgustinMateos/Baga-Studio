@@ -1,34 +1,34 @@
 const material = [
-    {id:2,nombre:"No se soltar",artista:"Niño Etc",img:"./imagenesClips/2-ninoetc.jpg",/*video:"./videos/NinioEtcNoSeSoltar.mp4"*/ video:"./videos/SillonFreyFinal.mp4"}, 
-{id:3,nombre:"Chico Buarque",artista:"Juku Ares",img:"./imagenesIndex/3-juku.jpg",/*video:"./videos/JukuAresChicoBuarque.mp4"*/ video:"./videos/SillonFreyFinal.mp4"} ,
-    {id:4 ,nombre:"617",artista:"Mujer Cebra",img:"./imagenesClips/4-mujercebra.jpg",/*video:"./videos/MujerCebra617.mp4"*/ video:"./videos/SillonFreyFinal.mp4"},
-    {id:5 ,nombre:"Sillon Frey",artista:"Estudio Te",img:"./imagenesClips/5-estudiote.jpg", video:"./videos/SillonFreyFinal.mp4"},
-{id:6,nombre:"Certezas",artista:"Mora Navarro",img:"./imagenesClips/6-certezas.jpg",/*video:"./videos/MoraNavarroCertezas.mp4"*/ video:"./videos/SillonFreyFinal.mp4"},
+    { id: 2, nombre: "No se soltar", artista: "Niño Etc", img: "./imagenesClips/2-ninoetc.jpg",/*video:"./videos/NinioEtcNoSeSoltar.mp4"*/ video: "./videos/SillonFreyFinal.mp4" },
+    { id: 3, nombre: "Chico Buarque", artista: "Juku Ares", img: "./imagenesIndex/3-juku.jpg",/*video:"./videos/JukuAresChicoBuarque.mp4"*/ video: "./videos/SillonFreyFinal.mp4" },
+    { id: 4, nombre: "617", artista: "Mujer Cebra", img: "./imagenesClips/4-mujercebra.jpg",/*video:"./videos/MujerCebra617.mp4"*/ video: "./videos/SillonFreyFinal.mp4" },
+    { id: 5, nombre: "Sillon Frey", artista: "Estudio Te", img: "./imagenesClips/5-estudiote.jpg", video: "./videos/SillonFreyFinal.mp4" },
+    { id: 6, nombre: "Certezas", artista: "Mora Navarro", img: "./imagenesClips/6-certezas.jpg",/*video:"./videos/MoraNavarroCertezas.mp4"*/ video: "./videos/SillonFreyFinal.mp4" },
 ];
 
 
 const cardsContainer = document.getElementById("index__cards__container"),
-carouselContainer = document.getElementById("carouselExampleControls"),
-containerGeneral = document.getElementById("index__container__general"),
-navBar = document.querySelector(".navBar");
+    carouselContainer = document.getElementById("carouselExampleControls"),
+    containerGeneral = document.getElementById("index__container__general"),
+    navBar = document.querySelector(".navBar");
 
 let div = document.createElement("div");
 
-function abrirVideo(id){
+function abrirVideo(id) {
     carouselContainer.classList.add("desaparecer");
     navBar.classList.add("desaparecer");
-    const video = material.find (r => r.id == id);
+    const video = material.find(r => r.id == id);
     div.innerHTML = `<div class="video__index__container">
                         //<video src="${video.video} " controls autoplay></video>
                         <button type="button" id="btnCerrar" onclick="cerrarVideo()" class="btnCerrar" value="Cerrar">x</button>
                     </div>
                     `
-    document.body.appendChild(div)      
-    
+    document.body.appendChild(div)
+
 }
 
 function cerrarVideo() {
-    div.innerHTML= "";
+    div.innerHTML = "";
     carouselContainer.classList.remove("desaparecer");
     navBar.classList.remove("desaparecer");
 }
@@ -36,12 +36,12 @@ function cerrarVideo() {
 
 function mostrarMaterial() {
     for (const imagen of material) {
-        const { id , nombre , img , artista } = imagen    
+        const { id, nombre, img, artista } = imagen
         const imagenesHtml = `
         <div id="index__imagenCarrousel__container" class="carousel-item" >
                     <img id="index__imagen__carrousel" src="${img}"  alt="...">
                     <div onclick="abrirVideo(${id})">
-                        <h5>${ nombre }-${artista }</h5>
+                        <h5>${nombre}-${artista}</h5>
                     </div>
                 </div>
         `
