@@ -5,16 +5,16 @@
     font-family: "Montserrat";
 }
 
-#anchor__bagaStudio__logo{
+#anchor__bagaStudio__logo {
     color: white;
 }
 
 
 //INDEX
 
-#index__imagenCarrousel__container div h5{
+#index__imagenCarrousel__container div h5 {
     font-family: $tipografiaInfoCards;
-    color:$colorTipografiaInfoCards;
+    color: $colorTipografiaInfoCards;
     font-size: $tFuenteInfoCardsIndex;
     text-align: center;
 }
@@ -32,42 +32,42 @@
 
 //WORKS 
 
-.works__nombresDeArtistas__container div h2{
+.works__nombresDeArtistas__container div h2 {
     font-family: $tipografiaTitulosDeSeccion;
     font-size: $tFuenteTitulosDeSeccion;
-    color: $colorTipografiaTitulosDeSeccion; 
+    color: $colorTipografiaTitulosDeSeccion;
     letter-spacing: 8px;
-    font-weight:300;
+    font-weight: 300;
 }
 
-.card__info h3{
+.card__info h3 {
     font-family: $tipografiaInfoCards;
     color: $colorTipografiaInfoCards;
-    cursor:pointer;
-    font-size:$tFuenteInfoCardsClips ;
+    cursor: pointer;
+    font-size: $tFuenteInfoCardsClips ;
 }
 
 
 @media (max-width:1401px) {
-    .card_info h3{
+    .card_info h3 {
         font-size: 1.8rem;
     }
 }
 
 @media (max-width:1301px) {
-    .card_info h3{
+    .card_info h3 {
         font-size: 1.6rem;
     }
 }
 
 @media (max-width:1201px) {
-    .card_info h3{
+    .card_info h3 {
         font-size: 1.4rem;
     }
 }
 
 @media (max-width:1101px) {
-    .card_info h3{
+    .card_info h3 {
         font-size: 1.2rem;
     }
 }
@@ -90,25 +90,25 @@
 
 //CORTOS 
 
-.shortfilms__titulo{
+.shortfilms__titulo {
     font-size: $tFuenteTitulosDeSeccion;
     font-family: $tipografiaTitulosDeSeccion;
-    color: $colorTipografiaTitulosDeSeccion; 
+    color: $colorTipografiaTitulosDeSeccion;
     letter-spacing: 8px;
     padding-top: 70px;
 }
 
-.video1__titulo__container h5 strong{
+.video1__titulo__container h5 strong {
     font-family: $tipografiaTitulosDeImagenesShortFilms;
-    color:$colorTipografiaTitulosDeImagenesShortFilms;
+    color: $colorTipografiaTitulosDeImagenesShortFilms;
     font-size: $tFuenteTitulosDeImagenesDeShortfilms;
     //opacity:0;
 }
 
 
-.video2__titulo__container h5 strong{
+.video2__titulo__container h5 strong {
     font-family: $tipografiaTitulosDeImagenesShortFilms;
-    color:$colorTipografiaTitulosDeImagenesShortFilms;
+    color: $colorTipografiaTitulosDeImagenesShortFilms;
     font-size: $tFuenteTitulosDeImagenesDeShortfilms;
 }
 
@@ -147,7 +147,7 @@
     letter-spacing: 8px;
 }
 
-#aboutUs__titulo__container h2{
+#aboutUs__titulo__container h2 {
     padding-top: 0px;
     padding-left: 0px;
     letter-spacing: 8px;
@@ -158,13 +158,11 @@
 
 //CONTACTO
 
-.contacto__titulo{
-    font-family: $tipografiaTitulosDeSeccion; 
+.contacto__titulo {
+    font-family: $tipografiaTitulosDeSeccion;
     letter-spacing: 8px;
     font-size: $tFuenteTitulosDeSeccion;
-    color:$colorTipografiaTitulosDeSeccion;
+    color: $colorTipografiaTitulosDeSeccion;
     padding-top: 70px;
     padding-left: 300px;
 }
-
-

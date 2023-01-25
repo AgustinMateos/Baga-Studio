@@ -33,7 +33,7 @@
 }
 
 @media (max-width:768px) {
-    
+
     /* .cuerpo{
         display: grid; 
         grid-auto-columns: 1fr; 
@@ -47,7 +47,7 @@
     .IndexexistoSoloParaMobile {
         display: block;
     }
-   
+
 
     .index_mobileMain_container {
         display: grid;
@@ -105,38 +105,13 @@
         margin-bottom: 40px;
     }
 
-.index__menu__containerclips {
-    /* height: 100px;
+    .index__menu__containerclips {
+        /* height: 100px;
      width: 90px;
      left: 0px;
      top: 138px;
      ;*/
-    
-     width: 28px;
-     height: 80px;
-     left: 55px;
-     top: 232px;
-     border-bottom: 2px solid #850808;
-     font-family: 'Montserrat';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 30px;
-     line-height: 37px;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     letter-spacing: 0.245em;
 
-     color: #FFFFFF;
- }
- .index__logoMobile__container div {
-    width: 71%;
-    height: 100%;
-    border-bottom: #850808 3px solid;
-}
-
-}
-    .index__menu__container { 
         width: 28px;
         height: 80px;
         left: 55px;
@@ -151,9 +126,36 @@
         align-items: center;
         text-align: center;
         letter-spacing: 0.245em;
-        
+
         color: #FFFFFF;
     }
+
+    .index__logoMobile__container div {
+        width: 71%;
+        height: 100%;
+        border-bottom: #850808 3px solid;
+    }
+
+}
+
+.index__menu__container {
+    width: 28px;
+    height: 80px;
+    left: 55px;
+    top: 232px;
+    border-bottom: 2px solid #850808;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.245em;
+
+    color: #FFFFFF;
+}
 
 
 
@@ -198,14 +200,14 @@
 
 
 .index__mainMobile__container div a p {
-   
-   /* font-size: $tFuenteInfoCardsClipsTablet;*/
+
+    /* font-size: $tFuenteInfoCardsClipsTablet;*/
     font-family: Montserrat;
-font-size: 30px;
-font-weight: 400;
-line-height: 37px;
-letter-spacing: 0.245em;
-text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.245em;
+    text-align: center;
 }
 
 .index__btnMobile__container {
@@ -229,40 +231,40 @@ text-align: center;
 
 @media (max-width:633px) {
     .index__logoMobile__container {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12px;
-    margin-bottom: 40px;
-}
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+        margin-bottom: 40px;
+    }
 
-.index__logoMobile__container h1 {
-    position: absolute;
-    width: 100%;
-    height: 95px;
-    left: 0px;
-    top: 68px;
-    color: white;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 44px;
-    text-align: center;
-    letter-spacing: 0.245em;
-}
+    .index__logoMobile__container h1 {
+        position: absolute;
+        width: 100%;
+        height: 95px;
+        left: 0px;
+        top: 68px;
+        color: white;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 0.245em;
+    }
 
-.index__mainMobile__container div a p {
-    font-family: "Montserrat";
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 37px;
-    letter-spacing: 0.245em;
-    text-align: center;
-}
+    .index__mainMobile__container div a p {
+        font-family: "Montserrat";
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0.245em;
+        text-align: center;
+    }
 
 }
 
@@ -285,6 +287,7 @@ text-align: center;
         text-align: center;
         letter-spacing: 0.245em;
     }
+
     .index__mainMobile__container div a p {
         font-family: "Montserrat";
         font-size: 16px;
@@ -293,6 +296,7 @@ text-align: center;
         letter-spacing: 0.245em;
         text-align: center;
     }
+
     .offcanvas {
         position: fixed;
         bottom: 0;
@@ -313,8 +317,9 @@ text-align: center;
     .logo__insatagram__navbar {
         display: none;
     }
-    
+
 }
+
 @media (max-width:399px) {
     .works__redesMobile__container {
         display: flex;
@@ -323,55 +328,65 @@ text-align: center;
         width: 100%;
         padding-top: 30px;
     }
+
     .navbar-nav {
         align-items: center;
     }
+
     .offcanvas-header .btn-close {
-       
+
         margin-right: 80px;
-       
+
     }
+
     .offcanvas-header .btn-close {
         margin-right: 130px;
-    
-}
-}
 
-@media (max-width:375px){
-    .offcanvas-header .btn-close {
-    margin-right: 120px;
-}}
-@media (max-width:358px){
-    .offcanvas-header .btn-close {
-    margin-right: 100px;
-}}
-
-@media (max-width:328px){
-    .offcanvas-header .btn-close {
-    margin-right: 80px;
-    .index__mainMobile__container div a p {
-        font-family: "Montserrat";
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 37px;
-        letter-spacing: 0.245em;
-        text-align: center;
     }
-    .index__logoMobile__container {
-        width: 100%;
-        height: 0px; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 12px;
-        margin-bottom: 40px;
-    }   
-}}
+}
 
-@media (max-width:310px){
+@media (max-width:375px) {
     .offcanvas-header .btn-close {
-    margin-right: 70px;
-}}
+        margin-right: 120px;
+    }
+}
+
+@media (max-width:358px) {
+    .offcanvas-header .btn-close {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:328px) {
+    .offcanvas-header .btn-close {
+        margin-right: 80px;
+
+        .index__mainMobile__container div a p {
+            font-family: "Montserrat";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 37px;
+            letter-spacing: 0.245em;
+            text-align: center;
+        }
+
+        .index__logoMobile__container {
+            width: 100%;
+            height: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 12px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width:310px) {
+    .offcanvas-header .btn-close {
+        margin-right: 70px;
+    }
+}
 
 
 
@@ -414,7 +429,7 @@ text-align: center;
 }
 */
 
-    
+
 
 /*
 @media (max-width:375px) {
@@ -523,4 +538,3 @@ margin-top: 0px;
     text-align: center;
 }
 } */
-

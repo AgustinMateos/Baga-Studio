@@ -1,6 +1,6 @@
 //GENERALES
 
-a p{
+a p {
     color: white;
 }
 
@@ -25,28 +25,28 @@ a p{
 }
 
 
-#index__imagenCarrousel__container div p{
+#index__imagenCarrousel__container div p {
     font-family: $tipografiaInfoCards;
-    color:$colorTipografiaInfoCards;
+    color: $colorTipografiaInfoCards;
     font-size: $tFuenteInfoCardsIndex;
 }
 
 //WORKS 
 
-.card__info{
+.card__info {
     font-size: medium;
-    color:$colorTipografiaInfoCards;
+    color: $colorTipografiaInfoCards;
     font-family: $tipografiaInfoCards;
 }
 
-.card__info p{
+.card__info p {
     font-family: $tipografiaInfoCards;
     color: $colorTipografiaInfoCards;
-    cursor:pointer;
-    font-size:$tFuenteInfoCardsClips;
+    cursor: pointer;
+    font-size: $tFuenteInfoCardsClips;
 }
 
-.works__footer{
+.works__footer {
     font-family: "Montserrat";
 
 }
@@ -56,15 +56,15 @@ a p{
 //CORTOS 
 
 
-.textoOficialSelection__shortfilms{
-    font-family:"Montserrat";
+.textoOficialSelection__shortfilms {
+    font-family: "Montserrat";
     color: white;
-    font-size:20px;
+    font-size: 20px;
 }
 
 //ABOUT US 
 
-#aboutUs__texto__container p{
+#aboutUs__texto__container p {
     font-family: $tipografiaDeTextos;
     font-size: $tFuenteTextos;
     color: $colorTipografiaDeTextos;
@@ -85,5 +85,3 @@ a p{
     list-style-type: none;
     text-decoration: none;
 }
-
-
