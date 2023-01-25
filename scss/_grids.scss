@@ -1,6 +1,6 @@
 //INDEX 
 
-/*flechas del carousel*/ 
+/*flechas del carousel*/
 
 
 
@@ -8,8 +8,8 @@
 
 //WORKS 
 
-.works__container {  
-  position:relative;
+.works__container {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.05fr 0.05fr 1.5fr 0.05fr;
@@ -17,78 +17,96 @@
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-      "navBar"
-      "works__nombresDeArtistas__container"
-      "works__imagenes__container"
-      "works__footer";
+    "navBar"
+    "works__nombresDeArtistas__container"
+    "works__imagenes__container"
+    "works__footer";
 }
 
 
 
 //SHORTFILMS
 
-.shortfilms__container {  
+.shortfilms__container {
   display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.3fr 2.5fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "navBar__container"
-      "shortfilms__title__container"
-      "shortfilms__videos__container";
-  }
-  
-  .navBar__container { grid-area: navBar__container; }
-  
-  .shortfilms__title__container { grid-area: shortfilms__title__container; }
-  
-  .shortfilms__videos__container {  display: grid;
-    grid-template-columns:2.5fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "shortfilms__video1__container"
-      "shortfilms__video2__container";
-    grid-area: shortfilms__videos__container;
-    justify-items: center;
-  }
-  
-  .shortfilms__video1__container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "video1__image__container video1__image__container video1__image__container"
-      "video1__image__container video1__image__container video1__image__container"
-      "video1__sinopsis__container video1__sinopsis__container video1__sinopsis__container";
-    grid-area: shortfilms__video1__container;
-  }
-  
-  .video1__image__container { grid-area: video1__image__container; }
-  
-  .video1__sinopsis__container { grid-area: video1__sinopsis__container; }
-  
-  .shortfilms__video2__container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "video2__image__container video2__image__container video2__image__container"
-      "video2__image__container video2__image__container video2__image__container"
-      "video2__sinopsis__container video2__sinopsis__container video2__sinopsis__container";
-    grid-area: shortfilms__video2__container;
-  }
-  
-  .video2__image__container { grid-area: video2__image__container; }
-  
-  .video2__sinopsis__container { grid-area: video2__sinopsis__container; }
-  
-  .shortfilms__margin__left { grid-area: shortfilms__margin__left; }
-  
-  .shortfilms__margin__right { grid-area: shortfilms__margin__right; }
-  
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 0.3fr 2.5fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "navBar__container"
+    "shortfilms__title__container"
+    "shortfilms__videos__container";
+}
+
+.navBar__container {
+  grid-area: navBar__container;
+}
+
+.shortfilms__title__container {
+  grid-area: shortfilms__title__container;
+}
+
+.shortfilms__videos__container {
+  display: grid;
+  grid-template-columns: 2.5fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "shortfilms__video1__container"
+    "shortfilms__video2__container";
+  grid-area: shortfilms__videos__container;
+  justify-items: center;
+}
+
+.shortfilms__video1__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "video1__image__container video1__image__container video1__image__container"
+    "video1__image__container video1__image__container video1__image__container"
+    "video1__sinopsis__container video1__sinopsis__container video1__sinopsis__container";
+  grid-area: shortfilms__video1__container;
+}
+
+.video1__image__container {
+  grid-area: video1__image__container;
+}
+
+.video1__sinopsis__container {
+  grid-area: video1__sinopsis__container;
+}
+
+.shortfilms__video2__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "video2__image__container video2__image__container video2__image__container"
+    "video2__image__container video2__image__container video2__image__container"
+    "video2__sinopsis__container video2__sinopsis__container video2__sinopsis__container";
+  grid-area: shortfilms__video2__container;
+}
+
+.video2__image__container {
+  grid-area: video2__image__container;
+}
+
+.video2__sinopsis__container {
+  grid-area: video2__sinopsis__container;
+}
+
+.shortfilms__margin__left {
+  grid-area: shortfilms__margin__left;
+}
+
+.shortfilms__margin__right {
+  grid-area: shortfilms__margin__right;
+}

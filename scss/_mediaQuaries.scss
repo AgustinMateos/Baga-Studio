@@ -205,10 +205,11 @@
     }
 }
 
-@media (max-width: 769px){
-.works__nombresDeArtistas__container div {
-    margin-top: 20px;
-}}
+@media (max-width: 769px) {
+    .works__nombresDeArtistas__container div {
+        margin-top: 20px;
+    }
+}
 
 /*tamaño cards*/
 
@@ -524,12 +525,12 @@
 
 @media (max-width:400px) {
     .shortfilms__titulo {
-    
+
         text-align: center;
-       
-    margin-left: -39px
+
+        margin-left: -39px
     }
-   
+
 }
 
 
@@ -1070,7 +1071,7 @@
 
     .video1__titulo__container {
         position: absolute;
-       
+
         right: 44%;
     }
 }

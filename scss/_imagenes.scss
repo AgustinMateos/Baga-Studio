@@ -12,8 +12,9 @@
     background-size: cover;
     height: 5px;
     width: 5px;
-    position:absolute;
-    top: 20px;right:200px;
+    position: absolute;
+    top: 20px;
+    right: 200px;
 }
 
 
@@ -23,15 +24,15 @@
 
 
 //WORKS 
-.imagen__container{
-    width:100%;
-    height:100%;
+.imagen__container {
+    width: 100%;
+    height: 100%;
 }
 
 
-.card__container .imagen__container img{
-    width:100%;
-    height:100%;
+.card__container .imagen__container img {
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -39,57 +40,59 @@
 //CORTOS 
 
 .image-view {
-    position:fixed;
-    top:0;
-    height:100vh;
-    background:rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
     width: 100%;
-    display:none;
-    
+    display: none;
+
 }
 
-.image-box{
-    width:70vw;
-    height:80vh;
-    position:fixed;
-    top:57%;
-    left:50%;
-    transform:translate(-50%,-50%);
+.image-box {
+    width: 70vw;
+    height: 80vh;
+    position: fixed;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     /*background: tomato;*/
-    display:none;
+    display: none;
 }
 
 
-#prev-btn, #next-btn{
-        width:0;
-        height:0;
-        border-top:20px solid transparent;
-        border-bottom:20px solid transparent;
-        position:absolute;
-        top:50%;
-        transform: translateY(-50%);
-        transition:all 0.5s ease;
-        cursor:pointer;
+#prev-btn,
+#next-btn {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
-#prev-btn{
-    border-right:40px solid grey;
-    left:-50px;
+#prev-btn {
+    border-right: 40px solid grey;
+    left: -50px;
 }
 
-#next-btn{
-    border-left:40px solid grey;
-    right:-50px;
+#next-btn {
+    border-left: 40px solid grey;
+    right: -50px;
 }
 
-#next-btn:hover, #prev-btn:hover{
-    opacity:0.6;
+#next-btn:hover,
+#prev-btn:hover {
+    opacity: 0.6;
 }
 
 
-.imagenesCortos{
-    width:100%;
-    height:50vh;
+.imagenesCortos {
+    width: 100%;
+    height: 50vh;
     object-fit: cover;
 }
 
@@ -97,14 +100,14 @@
 
 
 
-.shortfilms__premios__container div img{
-    width:200px;
-    height:190px;
+.shortfilms__premios__container div img {
+    width: 200px;
+    height: 190px;
 }
 
 
-.shortfilms__carousel__image{
-    width:100%;
-    height:500px;
+.shortfilms__carousel__image {
+    width: 100%;
+    height: 500px;
     z-index: 100;
 }
